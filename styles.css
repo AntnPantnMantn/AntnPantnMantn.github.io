@@ -1,0 +1,55 @@
+red{color: #f00;}
+orange{color: #f80;}
+yellow{color: ff0;}
+green{color: #0c0;}
+blue{color: #09f;}
+purple{color: #90c;}
+pink{color: #f3c;}
+white{color: #fff;}
+grey{color: #808080;}
+black{color: #000;}
+
+.red{color: #f00;}
+.orange{color: #f80;}
+.yellow{color: ff0;}
+.green{color: #0c0;}
+.blue{color: #09f;}
+.purple{color: #90c;}
+.pink{color: #f3c;}
+.white{color: #fff;}
+.grey{color: #808080;}
+.black{color: #000;}
+
+heading{
+	display: block;
+	font-size:60;
+}
+.heading{
+	display: block;
+	font-size:60;
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: black;
+	font-size:20px;
+	color: white;
+}
+
+a:link{
+	color: royalblue;
+	text-decoration: underline;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: MediumVioletRed;
+}
