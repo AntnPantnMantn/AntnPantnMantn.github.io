@@ -9,22 +9,7 @@ white{color: #fff;}
 grey{color: #808080;}
 black{color: #000;}
 
-.red{color: #f00;}
-.orange{color: #f80;}
-.yellow{color: ff0;}
-.green{color: #0c0;}
-.blue{color: #09f;}
-.purple{color: #90c;}
-.pink{color: #f3c;}
-.white{color: #fff;}
-.grey{color: #808080;}
-.black{color: #000;}
-
 heading{
-	display: block;
-	font-size:60;
-}
-.heading{
 	display: block;
 	font-size:60;
 }

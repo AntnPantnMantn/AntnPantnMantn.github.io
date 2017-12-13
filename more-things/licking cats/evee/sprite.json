@@ -1,0 +1,123 @@
+{
+	"objName": "Pokemon Theme Song",
+	"scripts": [[10,
+			10,
+			[["whenGreenFlag"],
+				["lookLike:", "Pokemon Theme Song"],
+				["gotoX:y:", -184, 120],
+				["setSizeTo:", 50],
+				["hide"],
+				["doForever", [["wait:elapsed:from:", 0.07], ["nextCostume"]]]]],
+		[10,
+			227,
+			[["whenClicked"], ["broadcast:", "Popkemon Theme Song"], ["stopAllSounds"], ["doPlaySoundAndWait", "Pokemon Theme Song"], ["broadcast:", "Stop"]]],
+		[10, 425, [["whenIReceive", "Page 2"], ["show"]]],
+		[10, 359, [["whenIReceive", "Page 1"], ["hide"]]]],
+	"sounds": [{
+			"soundName": "Pokemon Theme Song",
+			"soundID": 0,
+			"md5": "28e6b937dd047f88590b03e3b4a69801.wav",
+			"sampleCount": 16737786,
+			"rate": 22050,
+			"format": "adpcm"
+		}],
+	"costumes": [{
+			"costumeName": "Pokemon Theme Song",
+			"baseLayerID": 0,
+			"baseLayerMD5": "417e5abf7b08dc0dfd492b806774b6fa.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song2",
+			"baseLayerID": 1,
+			"baseLayerMD5": "c60a38c7e1da57f7c4db2aa6f4e82c89.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song3",
+			"baseLayerID": 2,
+			"baseLayerMD5": "9d8d952b47dfc05d5830cc4451060179.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song4",
+			"baseLayerID": 3,
+			"baseLayerMD5": "0f69fd90ab0948f151a9061eafba09c7.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song5",
+			"baseLayerID": 4,
+			"baseLayerMD5": "5f0b7ec8954bd524b3f6fbe5ab01d75d.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song6",
+			"baseLayerID": 5,
+			"baseLayerMD5": "0d7be59e10f02b20f0c9abefaf8ab4b3.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song7",
+			"baseLayerID": 6,
+			"baseLayerMD5": "dd52c878dafe05452450fdd6e6428e3b.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song8",
+			"baseLayerID": 7,
+			"baseLayerMD5": "decb6c52fb70cb8167d3b24d09e32238.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song9",
+			"baseLayerID": 8,
+			"baseLayerMD5": "dca02b1221a9c408e07c5db154a67417.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song10",
+			"baseLayerID": 9,
+			"baseLayerMD5": "cfd0f7fd41441a89e4a9cd5bd6422e3b.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		},
+		{
+			"costumeName": "Pokemon Theme Song11",
+			"baseLayerID": 10,
+			"baseLayerMD5": "a160332424d74844c2f2df412114dddc.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 200,
+			"rotationCenterY": 200
+		}],
+	"currentCostumeIndex": 10,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 0.5,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}
