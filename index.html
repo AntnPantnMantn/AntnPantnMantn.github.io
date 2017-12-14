@@ -15,7 +15,7 @@
 		<title>Anson&apos;s Website</title>
 		<link rel="icon" href="./icons/rainbow.ico">
 		<link rel="stylesheet" href="./styles.css">
-		<link rel="prefetch" href="./fluffies/blink/rainbow.png">
+		<link rel="preload" href="./fluffies/blink/rainbow.png">
 		<style>
 			#fluffy {
 				background-image: url('./fluffies/rainbow-fluffy.gif');
@@ -29,8 +29,9 @@
 			var squeak = new Audio();
 			squeak.src = "./fluffy-noises/mp3/fluffy0.mp3";
 		</script>
+		<script type="text/javascript" src="./js.js"></script>
 	</head>
-	<body>
+	<body onLoad="preload_next_document ('nextdoc.html');">
 		<img style="float:right;" height="80" width="80" id="fluffy" onmousedown="squeak.play()" src="./nothing.png"></img>
 		<heading>
 			<a href="./dank-memes/" style="text-decoration: none">
