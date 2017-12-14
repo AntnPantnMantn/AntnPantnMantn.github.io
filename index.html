@@ -2,15 +2,14 @@
 
 <!-- why did I.T. have to bloq this website:( -->
 
-
+<!-- <style>
+	.upsidedown {
+	display: inline-block;
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	}
+</style> -->
 <html>
-	<!-- <style>
-		.upsidedown {
-		display: inline-block;
-		-webkit-transform: rotateX(180deg);
-		transform: rotateX(180deg);
-		}
-	</style> -->
 	<head>
 		<title>Anson&apos;s Website</title>
 		<link rel="icon" href="./icons/rainbow.ico">
@@ -28,13 +27,12 @@
 			var squeak = new Audio();
 			squeak.src = "./fluffy-noises/mp3/fluffy0.mp3";
 		</script>
-		<script type="text/javascript" src="./js.js"></script>
 	</head>
-	<body onLoad="preload_next_document ('./fluffies/blink/rainbow.png');">
+	<body>
 
 		<img height="0" width="0" src="./fluffies/blink/rainbow.png"></img>
-		<!-- ↑↑↑ i put this 0x0 image here to load it into the cache ↑↑↑ -->
-		<img style="float:right;" height="80" width="80" id="fluffy" onmousedown="squeak.play()" src="./nothing.png"></img>
+		<!-- ↑↑↑ i put this 0x0 image here to load it into the cache -->
+		<img style="float:right;" height="80" width="80" id="fluffy" onmousedown="squeak.play()" src="./nothing.gif"></img>
 		
 		<heading>
 			<a href="./dank-memes/" style="text-decoration: none">
