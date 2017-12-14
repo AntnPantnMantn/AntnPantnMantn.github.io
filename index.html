@@ -15,7 +15,6 @@
 		<title>Anson&apos;s Website</title>
 		<link rel="icon" href="./icons/rainbow.ico">
 		<link rel="stylesheet" href="./styles.css">
-		<link rel="preload" href="./fluffies/blink/rainbow.png">
 		<style>
 			#fluffy {
 				background-image: url('./fluffies/rainbow-fluffy.gif');
@@ -31,8 +30,12 @@
 		</script>
 		<script type="text/javascript" src="./js.js"></script>
 	</head>
-	<body onLoad="preload_next_document ('nextdoc.html');">
+	<body onLoad="preload_next_document ('./fluffies/blink/rainbow.png');">
+
+		<img height="0" width="0" src="./fluffies/blink/rainbow.png"></img>
+		<!-- ↑↑↑ i put this 0x0 image here to load it into the cache ↑↑↑ -->
 		<img style="float:right;" height="80" width="80" id="fluffy" onmousedown="squeak.play()" src="./nothing.png"></img>
+		
 		<heading>
 			<a href="./dank-memes/" style="text-decoration: none">
 				<red>dank meme&#769;s</red>
