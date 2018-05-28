@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>chat room</title>
+	<link rel="icon" href="../icons/yellow.ico">
+	<link rel="stylesheet" href="../styles.css">
+	<img height="0" width="0" src="../fluffies/blink/pink.png"> 
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+		#fluffy {
+			background-image: url('../fluffies/yellow-fluffy.gif');
+			background-size: 100%;
+		}
+		#fluffy:active {
+			background-image: url('../fluffies/blink/yellow.png');
+		}
+		</style>
+		<script>
+			var squeak = new Audio();
+			squeak.src = "../fluffy-noises/mp3/fluffy7.mp3";
+	</script>
+</head>
+
+<body bgcolor="black">
+	<img style="float:right;" height="100" width="100" id="fluffy" onmousedown="squeak.play()" src="../nothing.gif">
+	<heading><yellow>chat room</yellow></heading>
+
+	<table width=100% height=80%><tr><td align="center" valign="middle"><font color=white><font style="font-family:comic sans ms,cursive;">
+		<iframe src="http://deadsimplechat.com/AntnPantnMantn" frameborder="0" width="1000" height="100%"></iframe>
+	</td></tr></table>
+</body>
+</html>
